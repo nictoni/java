@@ -1,0 +1,52 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Caveat', sans-serif;
+    outline: none;
+    align-items: center;
+}
+
+body{
+    background-color: #dad0c0;
+    display: block;
+
+}
+
+
+img{
+    width: 600px;
+    display: block;
+    margin: 20px auto;
+    appearance: none;
+}
+
+input{
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 50px;
+    width: 400px;
+    appearance: none;
+    font-size: 35px;
+    color: #555555;
+    cursor: pointer;
+    display: block;
+   margin: 20px auto;
+    
+   
+}
+
+button{
+
+    background: #dd877d;
+    border-radius: 5px;
+    width: 200px;
+    height: 48px;
+    color: black;
+    font-weight: 700px;
+    font-size: 35px;
+    cursor: pointer;
+    display: block;
+   margin: 20px auto;
+    
+}

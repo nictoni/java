@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="culpabilidade.css">
+    <title>QUESTIONÁRIO DE CULPABILIDADE</title>
+</head>
+<body>
+    <h1>Questionário de culpabilidade</h1>
+
+    <table>
+        <tr>
+            <th>Mora perto da vítima?</th>
+            <td><input type="radio" name="sim" id=""> SIM</td>
+            <td><input type="radio" name="nao" id=""> NÃO</td>
+        </tr>
+
+        <tr>
+            <th>Já trabalhou com a vítima?</th>
+            <td><input type="checkbox" name="sim" id=""> SIM</td>
+            <td><input type="checkbox" name="nao" id=""> NÃO</td>
+        </tr>
+
+        <tr>
+            <th>Telefonou para a vítima?</th>
+            <td><input type="checkbox" name="sim" id=""> SIM</td>
+            <td><input type="checkbox" name="nao" id=""> NÃO</td>
+        </tr>
+
+        <tr>
+            <th>Esteve no local do crime?</th>
+            <td><input type="checkbox" name="sim" id=""> SIM</td>
+            <td><input type="checkbox" name="nao" id=""> NÃO</td>
+        </tr>
+
+        <tr>
+            <th>Devia para a vítima?</th>
+            <td><input type="checkbox" name="sim" id=""> SIM</td>
+            <td><input type="checkbox" name="nao" id=""> NÃO</td>
+        </tr>
+    </table>
+
+    <button onclick="verificarCulpabilidade()">Verificar Culpabilidade</button>
+</body>
+<script src="culpabilidade.js"></script>
+</html>

@@ -1,0 +1,28 @@
+* {
+    background-color: rgb(179, 207, 198);
+}
+
+
+table {
+    font-style: normal;
+    appearance: none;
+    font-size: 30px;
+}
+
+input[type="checkbox"] {
+    width: 30px; 
+    height: 30px;
+    align-items: center;
+}
+
+button{
+
+    background-color: bisque;
+    width: 150px;
+    height: 60px;
+    font-size: 20px;
+    margin-left: 365px;
+    margin-top: 20px;
+}
+
+
